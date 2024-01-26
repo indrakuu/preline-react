@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Start: Table of Content */
+
+ol.nested-counter-list {
+    counter-reset: item;
+  }
+  
+  ol.nested-counter-list li {
+    display: block;
+  }
+  
+  ol.nested-counter-list li::before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+  }
+  
+  ol.nested-counter-list ol {
+    counter-reset: item;
+  }
+
+  [id]::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+  }
+  
+/* End :Table of Content */
+  
