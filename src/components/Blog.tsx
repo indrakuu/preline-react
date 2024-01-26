@@ -1,5 +1,7 @@
 
-const Blog = ({category, image, title, description, date, time}) => {
+
+
+const Blog = ({category, image, title, description, date, time}: any) => {
     return (
         <div>
             <a href='/detail-blog' className="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-lg transition duration-200">

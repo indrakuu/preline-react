@@ -1,7 +1,6 @@
-import React from 'react';
 import { FiMessageSquare, FiMoreHorizontal } from 'react-icons/fi';
 
-const Comment = ({name, image, date, comment}) => {
+const Comment = ({name, image, date, comment} : any) => {
     return (
         <div>
             <div className="flex justify-between items-center mb-2">

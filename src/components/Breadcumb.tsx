@@ -2,12 +2,12 @@ import { FiChevronRight } from 'react-icons/fi';
 import React from 'react';
 import Card from './Card';
 
-const Breadcumb = ({data}) => {
+const Breadcumb = ({data} : any) => {
     return (
         <Card className={`mb-4`}>
             <div className="p-4">
                 <div className="flex items-center gap-x-2">
-                    {data.map((item, index) => (
+                    {data.map((item : any, index : any) => (
                         <React.Fragment key={item.id}>
                         {index > 0 && <FiChevronRight className="text-gray-400" />}
                         {index === data.length - 1 ? (

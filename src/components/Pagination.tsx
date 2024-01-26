@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiChevronsLeft, FiChevronsRight} from 'react-icons/fi';
 
 const Pagination = () => {

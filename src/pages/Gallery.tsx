@@ -32,7 +32,7 @@ const Gallery = () => {
     
     const [toggler, setToggler] = useState(Array(galleryList.length).fill(false));
 
-    const handleToggle = (index) => {
+    const handleToggle = (index : any) => {
         const newToggler = [...toggler];
         newToggler[index] = !newToggler[index];
         setToggler(newToggler);

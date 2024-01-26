@@ -1,4 +1,4 @@
-const PopularPost = ({ title, image, date, time }) => {
+const PopularPost = ({ title, image, date, time } : any) => {
     return (
         <div>
             <a className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition" href="/detail-blog">

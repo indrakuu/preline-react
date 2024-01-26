@@ -1,4 +1,4 @@
-const Card = ({children, className}) => {
+const Card = ({children, className} : any) => {
     return (
         <div className={`${className} backdrop-filter shadow bg-opacity-50 bg-white border border-gray-200 rounded-xl`}>
             {children}
