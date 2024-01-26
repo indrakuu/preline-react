@@ -47,6 +47,15 @@ class Footer extends Component {
                           </span>
                         </a>
                       </p>
+                      <p>
+                        <a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                          href="https://github.com/indrakuu/preline-react" target="_blank">
+                          Github {" "}
+                          <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
+                            Download
+                          </span>
+                        </a>
+                      </p>
                     </div>
                   </div>
                   <div className="col-span-1">

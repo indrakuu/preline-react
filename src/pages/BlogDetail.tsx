@@ -13,7 +13,7 @@ const BlogDetail = () => {
             id: 1, name: 'Michael Gough', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
             image: 'https://img.freepik.com/free-vector/cute-robot-holding-phone-with-laptop-cartoon-vector-icon-illustration-science-technology-isolated_138676-4870.jpg',
             reply: [
-                { id: 1, name: 'Michael Gough', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
+                { id: 1, name: 'Indra Kurniawan', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
                 image: 'https://img.freepik.com/free-vector/cute-cow-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-flat_138676-7823.jpg'},
             ]
         },
@@ -21,7 +21,7 @@ const BlogDetail = () => {
             id: 2, name: 'Jese Leos', date: 'Feb. 12, 2022', comment: 'Much appreciated! Glad you liked it ☺️',
             image: 'https://img.freepik.com/free-vector/cute-angry-red-dinosaur-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-flat_138676-6013.jpg',
             reply: [
-                { id: 1, name: 'Michael Gough', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
+                { id: 1, name: 'Indra Kurniawan', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
                 image: 'https://img.freepik.com/free-vector/cute-cow-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-flat_138676-7823.jpg'},
             ]
         },
@@ -30,7 +30,7 @@ const BlogDetail = () => {
             image: 'https://img.freepik.com/free-vector/cute-elephant-sitting-waving-hand-cartoon-vector-icon-illustration_138676-2220.jpg',
             reply: [
                 {
-                    id: 1, name: 'Michael Gough', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
+                    id: 1, name: 'Indra Kurniawan', date: 'Feb. 8, 2022', comment: 'Very straight-to-point article. Really worth time reading. Thank you! But tools are just the instruments for the UX designers. The knowledge of the design tools are as important as the creation of the design strategy.',
                     image: 'https://img.freepik.com/free-vector/cute-cow-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-flat_138676-7823.jpg'
                 },
             ]

@@ -24,7 +24,7 @@ class Widget extends Component {
                                 <p className="text-sm text-gray-500">Web Developer Enthusiast</p>
                                 <div className="inline-block bg-white border shadow-sm rounded-full text-center mt-4">
                                     <div className="py-3 px-4 flex items-center gap-x-2">
-                                        <a className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="/detail-blog">
+                                        <a className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="https://www.infobangindra.my.id/">
                                         More <FiChevronRight size={20} />
                                         </a>
                                     </div>
@@ -41,30 +41,30 @@ class Widget extends Component {
                             </h3>
                         </div>
                         <div className="mt-4 grid grid-cols-3 gap-3">
-                            <button type="button"
+                            <a href='https://www.facebook.com/'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiFacebook className='w-4 h-4' />
-                            </button>
-                            <button type="button"
+                            </a>
+                            <a href='https://www.instagram.com/'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-pink-500 text-white hover:bg-pink-600 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiInstagram className='w-4 h-4' />
-                            </button>
-                            <button type="button"
+                            </a>
+                            <a href='https://www.youtube.com/'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-500 text-white hover:bg-red-600 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiYoutube className='w-4 h-4' />
-                            </button>
-                            <button type="button"
+                            </a>
+                            <a href='https://www.linkedin.com/'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-800 text-white hover:bg-blue-900 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiLinkedin className='w-4 h-4' />
-                            </button>
-                            <button type="button"
+                            </a>
+                            <a href='https://github.com/indrakuu'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-600 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiGithub className='w-4 h-4' />
-                            </button>
-                            <button type="button"
+                            </a>
+                            <a href='https://www.rss.com/'
                                 className="justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-orange-500 text-white hover:bg-orange-600 disabled:opacity-50 disabled:pointer-events-none">
                                 <FiRss className='w-4 h-4' />
-                            </button>
+                            </a>
                         </div>      
                     </div>
                 </Card>

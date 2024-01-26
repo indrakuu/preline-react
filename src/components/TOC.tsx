@@ -6,7 +6,7 @@ const TOC = () => {
             <div className="hs-accordion-group mb-4 shadow-md">
                 <div className="hs-accordion border rounded-lg"id="hs-bordered-heading">
                     <button
-                        className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none border-b border-gray-200 focus:outline-none bg-gray-200" aria-controls="hs-basic-bordered-collapse">
+                        className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none border-b border-gray-200 focus:outline-none bg-gray-50" aria-controls="hs-basic-bordered-collapse">
                         <FiMenu className='hs-accordion-active:hidden block w-4 h-4' />
                         <FiX className='hs-accordion-active:block hidden w-4 h-4' />
                         Table of Contents

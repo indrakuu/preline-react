@@ -1,6 +1,3 @@
-
-
-
 const Blog = ({category, image, title, description, date, time}: any) => {
     return (
         <div>
